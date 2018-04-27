@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blogspot.abimcode.dicodingintent.MainActivity">
+
+    <Button
+        android:id="@+id/pindahButton"
+        android:text="pindah button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Pindah activity dengan data"
+        android:id="@+id/pindahActivityData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnDialNumber"
+        android:text="Dial a Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
